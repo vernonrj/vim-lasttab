@@ -17,19 +17,24 @@ Vim 7 is necessary for tab functionality.
 ==============================================================================
 MAPPINGS                                        *lasttab-mappings*
 
-The mappings in this plugin are designed to avoid conflict by using |<Plug>|. To
-define your own keymappings for them, you can edit your |vimrc|.
+The mappings in this plugin are designed to avoid conflicts by using |<Plug>|.
+To define your own keymappings for them, you can edit your |vimrc|.
 
   Functionality           Mapping                        Default~
   Previously-used tab     <Plug>LastTabLastUsedTab       <M-`>
   Previously-used buffer  <Plug>LastTabLastUsedBuffer    <Leader>`
 
-Custtom mappings for these commands would usually look like: >
-
+Custom mappings for these commands would look something like:
+>
   nmap <Leader>FOO <Plug>LastTabLastUsedTab
   nmap <Leader>BAR <Plug>LastTabLastUsedBuffer
 <
 Where `FOO` and `BAR` are whatever you want.
+
+If you already have mappings for the default mappings, the plugin will throw
+an error at load time, rather than overwriting your existing mappings. You'll
+have to define custom mappings for the plugin that don't conflict in order to
+eliminate the error.
 
 ==============================================================================
 CONTRIBUTIONS                                   *lasttab-contributions*
