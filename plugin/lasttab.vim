@@ -13,7 +13,7 @@ let g:LastTab_lasttab = tabpagenr()
 
 augroup LastTabAutoGroup
   autocmd!
-  " Update it every time you leave a tab
+  " Update every time you leave a tab
   autocmd TabLeave * let g:LastTab_lasttab = tabpagenr()
 augroup END
 

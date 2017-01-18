@@ -1,4 +1,4 @@
-*lasttab.txt*  Plutin for asily switching to the previously-used tab
+*lasttab.txt*  Plugin for easily switching to the previously-used tab
 
 Author:  Vernon Jones <vernonrjones@gmail.com>
 License: Same terms as Vim itself (see |license|)
