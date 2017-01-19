@@ -1,7 +1,7 @@
 # vim-lasttab
 
 A simple plugin for selecting the previous tab you were on. See the
-[vim documentation](help/lasttab.txt) for details, or just call `:help vim-lasttab` from within vim.
+[vim documentation](doc/lasttab.txt) for details, or just call `:help vim-lasttab` from within vim.
 
 ## Installation
 
